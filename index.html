@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wez's Coffee Hut</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container hero-section">
+    <nav>
+      <ul>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Order!</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <h1>Wez’s Coffee Hut</h1>
+      <p>Where coffee nerds and common folks gather round</p>
+    </div>
+  </div>
+
+  <section class="about-section">
+    <div class="about-wrapper">
+      <img src="cafe.jpg" alt="Cafe" class="about-img">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          At Wez's Coffee Hut, we believe great coffee brings people together. From passionate coffee nerds to casual sippers, our cozy space is a place for everyone to enjoy a perfect cup. We carefully craft each drink using quality beans and fresh ingredients to give you a memorable experience every time. Whether you're here for a quick espresso, a long chat with friends, or a quiet moment to yourself, Wez's Coffee Hut is your home away from home.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="join-section">
+    <div class="join-container">
+      <h2>Join Us!</h2>
+      <form id="joinForm" class="join-form">
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address here" required>
+        <div class="join-desc">We will send the membership form in 1x24 Hours</div>
+        <button type="submit">Send</button>
+        <div id="joinMessage" class="join-message"></div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-title">More Interesting Stuffs !</div>
+        <div class="footer-icons">
+          <a href="#" aria-label="Instagram"><img src="instagram.svg" alt="Instagram" /></a>
+          <a href="#" aria-label="Twitter"><img src="twitter.svg" alt="Twitter" /></a>
+          <a href="#" aria-label="TikTok"><img src="tiktok.svg" alt="TikTok" /></a>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
